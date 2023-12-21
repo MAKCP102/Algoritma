@@ -11,17 +11,6 @@
 // } else (bill==bill2 && bill==3) 
 //     console.log('semua bilangan sama')
 
-// //nomor//
-// let saklar =1;
-
-// if (saklar==1) {
-//     console.log('ON')
-// } else if (saklar==0) {
-//     console.log('OFF')
-// } else {
-//     console.log('masukkan angka 1 atau 0')
-// }
-
 //nomor 2//
 // let angka = prompt ('masukkan angka selain 0');
 
@@ -36,6 +25,18 @@
 // } else {
 //     console.log('masukkan angka')
 // }
+
+// //nomor3//
+// let saklar =1;
+
+// if (saklar==1) {
+//     console.log('ON')
+// } else if (saklar==0) {
+//     console.log('OFF')
+// } else {
+//     console.log('masukkan angka 1 atau 0')
+// }
+
 
 //nomor4//
 // let br1 =50000;
@@ -52,7 +53,7 @@
 // }
 
 // nomor5
-// let jam = prompt ('masukkan jam kerja')
+// let jam = prompt ('masukkan jam kerja');
 
 // if (jam <6) {
 //     console.log('Rp100000')
@@ -64,14 +65,22 @@
 
 // nomor6
 
-// let kondisi = prompt ('masukkan kondisi air')
+// let kondisi = prompt ('masukkan kondisi air');
 
 // if (kondisi <500) {
-//     console.log('Aman')
-// } else if (kondisi >500 && kondisi <600) {
-//     console.log('Waspada')
-// } else if (kondisi >600 && kondisi<650) {
-//     console.log('siaga1')
-// } else if (kondisi >650) {
-//     console.log('Siaga2')
-// } else {'Masukkan jumlah air'}
+//     console.log('Aman')jsrradit
+// Penerimaan
+let Jalur = 'Prestasi';
+let NilaiUN= 85;
+let TesMandiri= 80;
+
+if (NilaiUN >=90 && NilaiUN <=100) {
+    console.log('Nilai sempurna dan lolos')
+} else if (NilaiUN >=80 && NilaiUN <=89) {
+    if (Jalur == 'Prestasi') {
+        console.log('jalur Prestasi')
+    } else if (Jalur =='Rapot')
+    console.log('Jalur Rapot')
+} else if (TesMandiri >=79 && TesMandiri<=100) {
+    console.log('Lolos Tes')
+} else {console.log('Tes Gagal')}
