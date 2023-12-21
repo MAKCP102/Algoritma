@@ -63,16 +63,15 @@
 // }
 
 // nomor6
-// let airnor =500;
-// let airsed =600;
-// let airting =650;
 
-// let hasil = prompt ('Masukkan kondisi air')
+// let kondisi = prompt ('masukkan kondisi air')
 
-// if (0 <=airnor) {
+// if (kondisi <500) {
 //     console.log('Aman')
-// } else if (airnor != airsed) {
+// } else if (kondisi >500 && kondisi <600) {
 //     console.log('Waspada')
-// } else {
-//     console.log('emmoh')
-// }
+// } else if (kondisi >600 && kondisi<650) {
+//     console.log('siaga1')
+// } else if (kondisi >650) {
+//     console.log('Siaga2')
+// } else {'Masukkan jumlah air'}
