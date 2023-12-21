@@ -68,7 +68,8 @@
 // let kondisi = prompt ('masukkan kondisi air');
 
 // if (kondisi <500) {
-//     console.log('Aman')jsrradit
+//     console.log('Aman')
+
 // Penerimaan
 let Jalur = 'Prestasi';
 let NilaiUN= 85;
